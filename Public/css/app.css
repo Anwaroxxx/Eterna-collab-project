@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+body , input , button{
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -104,6 +104,50 @@ nav {
   font-size: 8px;
 }
 
+.dropdown-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  z-index: 999;
+}
+
+.dropdown-menu a {
+  padding: 10px 15px;
+  color: #545454;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dropdown-menu a:hover {
+  background-color: rgb(232, 108, 86);
+  color: white;
+}
+
+.dropdown-container:hover .dropdown-menu {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
 .scroll2,
 .scroll3 {
   display: none;
@@ -117,7 +161,7 @@ nav {
   background-image: url(/Public/images/hero-carousel/hero-carousel-1.jpg);
   background-size: cover;
   background-position: center;
-  height: 700px;
+  height: 500px;
   overflow: hidden;
   margin-top: 95px;
 }
@@ -174,7 +218,7 @@ nav {
 .container {
   display: flex;
   flex-direction: column;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(250, 250, 250);
   padding-top: 40px;
   padding-left: 20px;
   height: 250px;
@@ -467,7 +511,6 @@ hr {
 .bottom-footer {
   text-align: center;
   color: #d5d5d5;
-  padding-bottom: 20px;
 }
 
 .bottom-footer span.bold {
