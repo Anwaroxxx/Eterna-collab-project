@@ -527,3 +527,152 @@ hr {
     flex-direction: column;
     row-gap: 20px;
 }
+
+
+@media (max-width:426px) {
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
+    height: auto;
+  }
+
+  .logo h2 {
+    font-size: 18px;
+  }
+
+  .links {
+    flex-direction: column;
+    width: 100%;
+    display: none; 
+    gap: 0;
+    margin-top: 10px;
+  }
+
+  .links a, .dropdown-container {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .dropdown-menu {
+    position: static;
+    transform: none;
+    opacity: 1;
+    pointer-events: auto;
+    box-shadow: none;
+    border: none;
+    display: none; 
+    flex-direction: column;
+    background-color: #f8f8f8;
+  }
+
+  .dropdown-container.active .dropdown-menu {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+    color: #545454;
+    margin-left: auto;
+  }
+
+  .header {
+    height: 350px;
+    padding: 0 10px;
+  }
+
+  .scroll1 {
+    padding: 70px 15px;
+    text-align: center;
+  }
+
+  .scroll1 h1 {
+    font-size: 24px;
+  }
+
+  .scroll1 p {
+    font-size: 14px;
+  }
+
+  .scroll1 a {
+    padding-inline: 20px;
+  }
+
+  .triple-info {
+    flex-direction: column;
+    row-gap: 20px;
+    padding-inline: 15px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .meeting {
+    flex-direction: column;
+    padding-inline: 15px;
+  }
+
+  .meet-left, .first, .second {
+    width: 100%;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    padding-inline: 15px;
+  }
+
+  .client {
+    padding-inline: 15px;
+  }
+
+  .client-icon {
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .down {
+    flex-direction: column;
+    align-items: stretch;
+    position: relative;
+    gap: 15px;
+    padding-inline: 15px;
+  }
+
+  .down input {
+    width: 100%;
+  }
+
+  .down button {
+    position: static;
+    width: 100%;
+    border-radius: 20px;
+    padding: 12px;
+  }
+
+  footer {
+    padding: 30px 15px;
+  }
+
+  .top-footer {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .footer-info .map {
+    padding-inline: 0;
+  }
+
+  .meeting img{
+    width: 350px;
+  }
+}
