@@ -16,6 +16,11 @@ body {
   justify-content: space-around;
   background-color: rgb(61, 61, 61);
   height: 35px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .contact {
@@ -53,8 +58,13 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: antiquewhite;
+  background-color: white;
   height: 60px;
+  position: fixed;
+  top: 35px;
+  left: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 .logo h2 {
@@ -92,4 +102,101 @@ nav {
 #dropdown i {
   color: rgb(84, 84, 84);
   font-size: 8px;
+}
+
+.scroll2,
+.scroll3 {
+  display: none;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/Public/images/hero-carousel/hero-carousel-1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  overflow: hidden;
+  margin-top: 95px;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.6);
+  z-index: 1;
+}
+
+.header > * {
+  position: relative;
+  z-index: 2;
+}
+
+.scroll1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  margin: auto;
+  height: 500px;
+  opacity: 100%;
+  padding: 110px;
+  justify-content: center;
+}
+
+.scroll1 h1,
+.scroll1 p {
+  color: rgb(66, 66, 66);
+}
+
+.scroll1 a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(232, 108, 86);
+  padding: 10px;
+  padding-inline: 30px;
+  border-radius: 25px;
+}
+
+.triple-info {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  column-gap: 30px;
+  align-items: center;
+  padding-inline: 50px;
+  height: max-content;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(245, 245, 245);
+  padding-top: 40px;
+  padding-left: 20px;
+  height: 250px;
+  width: 380px;
+  row-gap: 30px;
+  transition: 0.4s ease;
+}
+
+.container h3, .container p {
+  color: rgb(66, 66, 66);
+}
+
+.container i {
+  color: rgb(232, 108, 86);
+  font-size: 20px;
+}
+
+.container:hover {
+  background-color: rgb(232, 108, 86);
+  color: white;
+}
+
+.container:hover i {
+  color: white;
 }
