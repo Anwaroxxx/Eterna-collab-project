@@ -25,14 +25,23 @@ A modern, clean, and responsive multi-page website built collaboratively by **An
 
 ### 🧑‍💻 **Anwar**
 - ✔️ Home Page (Desktop)
+
 - ✔️ Contact Page (Desktop)
+
 - ✔️ Team Page *(Bonus)* (Desktop)
+
 - 🔄 Currently working on **Mobile Responsive** (10%)
 
+
+
 ### 👨‍💻 **Amine El Wafi**
+
 - 🔧 About Page (In progress)
+- 
 - 🔧 Services Page (In progress)
+- 
 - 📉 Current Progress: **20%**
+
 
 ---
 
@@ -45,16 +54,20 @@ A modern, clean, and responsive multi-page website built collaboratively by **An
 | 👥 Team (Bonus) | ✔️ Completed | Anwar |
 | ℹ️ About | 🔧 In Progress | Amine |
 | 🛠️ Services | 🔧 In Progress | Amine |
-| 📱 Mobile Responsive | 🔄 10% | Anwar |
+| 📱 Mobile Responsive | 🔄 10% | Anwar / Amine |
 
 ---
 
 ## 📊 Progress Overview
 
 Desktop Pages: ████████████████████ 100%
+
 Mobile Responsive: ██░░░░░░░░░░░░░░░░ 10%
+
 Amine’s Pages: ████░░░░░░░░░░░░░░ 20%
+
 Overall Progress: ███████░░░░░░░░░░░ 40%
+
 
 
 ---
