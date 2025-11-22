@@ -1,14 +1,16 @@
 <div align="center">
   
 # 🌐 Collaborative Web Project  
+
 ### **Anwar × Amine El Wafi**
 
 <br>
 
 📅 **Deadline:** 2 Days  
+
 🖥️ **Pages Required:** 4  
+
 ✨ **Bonus Page:** Team Page  
-📱 **Status:** Desktop done • Mobile responsive in progress  
 
 ---
 
