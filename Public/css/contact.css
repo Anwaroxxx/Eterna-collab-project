@@ -226,8 +226,7 @@ hr {
     display: grid;
     grid-template-rows: auto auto;
     gap: 30px;
-    padding-inline: 50px;
-    padding-top: 40px;
+    padding: 40px 30px;
     background-color: rgb(246, 246, 246);
 }
 
@@ -245,6 +244,7 @@ hr {
     justify-content: center;
     align-items: center;
     row-gap: 30px;
+    padding: 20px 0;
 
 }
 
@@ -265,6 +265,32 @@ hr {
   height: 100%;
   border: none;
 }
+
+.top-grid .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px #e86c56;
+    border-style: dashed;
+}
+
+.top-grid .center i{
+    color: #e86c56;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    padding: 30px;
+}
+
+
+
 
 
 
