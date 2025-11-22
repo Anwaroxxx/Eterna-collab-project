@@ -200,3 +200,53 @@ nav {
 .container:hover i {
   color: white;
 }
+
+
+.meeting{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-inline: 86.5px;
+    padding-bottom: 30px;
+    background-color: aliceblue;
+}
+
+.meet-left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.first h2{
+   color: rgb(66, 66, 66); 
+   font-weight: bold;
+}
+
+.first p{
+    color: rgb(135, 135, 135);
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.second div{
+    display: flex;
+    align-items: center;
+    column-gap: 5px
+}
+
+.second i{
+    color:rgb(232, 108, 86) ;
+}
+
+.grid{
+    display: grid;
+}
