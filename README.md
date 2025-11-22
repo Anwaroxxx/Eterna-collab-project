@@ -60,13 +60,13 @@ A modern, clean, and responsive multi-page website built collaboratively by **An
 
 ## 📊 Progress Overview
 
-Desktop Pages: ████████████████████ 100%
+Desktop Pages:     ████████████████████ 100%
 
 Mobile Responsive: ██░░░░░░░░░░░░░░░░ 10%
 
-Amine’s Pages: ████░░░░░░░░░░░░░░ 20%
+Amine’s Pages:     ████░░░░░░░░░░░░░░ 20%
 
-Overall Progress: ███████░░░░░░░░░░░ 40%
+Overall Progress:  ███████░░░░░░░░░░░ 40%
 
 
 
@@ -79,19 +79,4 @@ Overall Progress: ███████░░░░░░░░░░░ 40%
 - **Responsive Design** via media queries
 
 ---
-
-## 📁 File Structure
-/project
-│
-├── index.html # Home (Anwar)
-├── about.html # Amine
-├── services.html # Amine
-├── contact.html # Anwar
-├── team.html # Bonus (Anwar)
-│
-└── /assets
-├── /images
-├── /icons
-└── /css
-└── style.css
 
