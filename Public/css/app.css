@@ -597,7 +597,9 @@ hr {
   }
 
   .logo h2 {
-    font-size: 18px;
+    font-size: 20px;
+    border-left: 4px solid #e86c56;
+    padding-left: 5px;
   }
 
   .links {
