@@ -1,66 +1,50 @@
 <div align="center">
-  
-# 🌐 Collaborative Web Project  
 
-### **Anwar × Amine El Wafi**
+# Collaborative Web Project  
+### Anwar × Amine El Wafi
 
-<br>
-
-📅 **Deadline:** 2 Days  
-
-🖥️ **Pages Required:** 4  
-
-✨ **Bonus Page:** Team Page  
+**Deadline:** 2 Days  
+**Pages Required:** 4  
+**Bonus Page:** Team Page  
 
 ---
 
 </div>
 
-<br>
-
-## 🚀 Overview
-A modern, clean, and responsive multi-page website built collaboratively by **Anwar** and **Amine El Wafi**, aiming to deliver a polished product under a tight deadline.
+## Overview
+A collaborative project focused on delivering a clean, modern, and responsive multi-page website under a tight deadline.
 
 ---
 
-## 👥 Team Roles
+## Team Progress
 
-### 🧑‍💻 **Anwar**
-- ✔️ Home Page (Desktop)
+### Anwar
+- Home (Desktop) — Completed  
+- Contact (Desktop) — Completed  
+- Team (Bonus) — Completed  
+- Mobile Responsive — In progress  
 
-- ✔️ Contact Page (Desktop)
-
-- ✔️ Team Page *(Bonus)* (Desktop)
-
-- 🔄 Currently working on **Mobile Responsive** (In progress)
-
-
-
-### 👨‍💻 **Amine El Wafi**
-
-- 🔧 About Page (In progress)
-- 
-- 🔧 Services Page (In progress)
-- 
-- 📉 Current Progress: **20%**
-
+### Amine El Wafi
+- About — In progress  
+- Services — In progress  
+- Current Progress: 20%
 
 ---
 
-## 📚 Pages Status
+## Pages Status
 
 | Page | Status | Developer |
 |------|--------|-----------|
-| 🏠 Home | ✔️ Completed | Anwar |
-| ☎️ Contact | ✔️ Completed | Anwar |
-| 👥 Team (Bonus) | ✔️ Completed | Anwar |
-| ℹ️ About | 🔧 In Progress | Amine |
-| 🛠️ Services | 🔧 In Progress | Amine |
-| 📱 Mobile Responsive | 🔄 10% | Anwar / Amine |
+| Home | ✔️ Completed | Anwar |
+| Contact | ✔️ Completed | Anwar |
+| Team (Bonus) | ✔️ Completed | Anwar |
+| About | In Progress | Amine |
+| Services | In Progress | Amine |
+| Mobile Responsive | 10% | Both |
 
 ---
 
-## 📊 Progress Overview
+## Progress Overview
 
 **Desktop Pages**  
 <progress value="70" max="100"></progress> 70%
@@ -74,16 +58,17 @@ A modern, clean, and responsive multi-page website built collaboratively by **An
 **Overall Progress**  
 <progress value="64" max="100"></progress> 64%
 
-
-
-
 ---
 
-## 🛠️ Tech Stack
-- **HTML5**
-- **CSS3**
-- **Font Awesome** (icons)
-- **Responsive Design** via media queries
+## Tech Stack
+
+### Languages & Tools  
+<p>
+  <img src="https://skillicons.dev/icons?i=html&theme=dark" width="48" />
+  <img src="https://skillicons.dev/icons?i=css&theme=dark" width="48" />
+  <img src="https://skillicons.dev/icons?i=bootstrap&theme=dark" width="48" />
+  <img src="https://skillicons.dev/icons?i=github&theme=dark" width="48" />
+  <img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="48" />
+</p>
 
 ---
-
