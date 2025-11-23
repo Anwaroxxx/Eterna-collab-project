@@ -1,74 +1,49 @@
 <div align="center">
 
-# Collaborative Web Project  
-### Anwar × Amine El Wafi
+# 🌐 Collaborative Web Project
 
-**Deadline:** 2 Days  
-**Pages Required:** 4  
-**Bonus Page:** Team Page  
+### **Anwar × Amine El Wafi**  
 
----
+📅 **Deadline:** 2 Days  
+🖥️ **Goal:** Deliver a clean, responsive, multi-page website  
 
 </div>
 
-## Overview
-A collaborative project focused on delivering a clean, modern, and responsive multi-page website under a tight deadline.
+---
+
+## 🚀 Project Goal
+Create a modern, fully responsive website with multiple pages, leveraging clean HTML5/CSS3 structure, responsive design, and professional UI/UX practices. Focus on quality, performance, and maintainability.
 
 ---
 
-## Team Progress
-
-### Anwar
-- Home (Desktop) — Completed  
-- Contact (Desktop) — Completed  
-- Team (Bonus) — Completed  
-- Mobile Responsive — In progress  
-
-### Amine El Wafi
-- About — In progress  
-- Services — In progress  
-- Current Progress: 20%
+## 👥 Team Roles
+- **Anwar** – Home, Contact, Team Page *(Bonus)*, Mobile Optimization  
+- **Amine El Wafi** – About, Services, Support on Mobile Optimization  
 
 ---
 
-## Pages Status
+## 🛠️ Tech Stack
 
-| Page | Status | Developer |
-|------|--------|-----------|
-| Home | ✔️ Completed | Anwar |
-| Contact | ✔️ Completed | Anwar |
-| Team (Bonus) | ✔️ Completed | Anwar |
-| About | In Progress | Amine |
-| Services | In Progress | Amine |
-| Mobile Responsive | 10% | Both |
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)  
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) 
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) 
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)  
 
 ---
 
-## Progress Overview
+## ⏱️ Productivity & Analytics
 
-**Desktop Pages**  
-<progress value="70" max="100"></progress> 70%
-
-**Mobile Responsive**  
-<progress value="33" max="100"></progress> 33%
-
-**Amine’s Pages**  
-<progress value="50" max="100"></progress> 50%
-
-**Overall Progress**  
-<progress value="64" max="100"></progress> 64%
+![WakaTime](https://img.shields.io/badge/WakaTime-1B1F23?style=for-the-badge&logo=wakataime&logoColor=white)  
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 ---
 
-## Tech Stack
-
-### Languages & Tools  
-<p>
-  <img src="https://skillicons.dev/icons?i=html&theme=dark" width="48" />
-  <img src="https://skillicons.dev/icons?i=css&theme=dark" width="48" />
-  <img src="https://skillicons.dev/icons?i=bootstrap&theme=dark" width="48" />
-  <img src="https://skillicons.dev/icons?i=github&theme=dark" width="48" />
-  <img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="48" />
-</p>
+## ⚡ Highlights
+- Fully responsive, mobile-first design  
+- Clean, maintainable HTML/CSS  
+- Bonus Team Page for enhanced UX  
+- Collaborative workflow with Git & GitHub  
 
 ---
