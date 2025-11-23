@@ -4,13 +4,15 @@
   box-sizing: border-box;
 }
 
-body , input , button{
+body,
+input,
+button {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -117,7 +119,7 @@ nav {
 
 .dropdown-menu {
   position: absolute;
-  top: 100%; 
+  top: 100%;
   left: 0;
   background-color: white;
   border: 1px solid #ccc;
@@ -128,7 +130,7 @@ nav {
   pointer-events: none;
   transform: translateY(10px);
   transition: opacity 0.3s ease, transform 0.3s ease;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   z-index: 999;
 }
@@ -526,52 +528,72 @@ hr {
   color: #e86c56;
 }
 
-.footer-info .map{
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
+.footer-info .map {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
 }
 
 .scroll-top-btn {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 50px;
-    height: 50px;
-    background-color: #e86c56;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 20px;
-    cursor: pointer;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    transition: all 0.3s ease;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: #e86c56;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .scroll-top-btn:hover {
-    background-color: #d65a45;
-    transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+  background-color: #d65a45;
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 .scroll-top-btn:active {
-    transform: translateY(-2px);
+  transform: translateY(-2px);
 }
 
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
 
+.menu-icon i {
+  font-size: 25px;
+  color: rgb(66, 66, 66);
+}
 
-@media (max-width:426px) {
+.menu-icon .fa-xmark {
+  display: none;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+@media (max-width: 426px) {
+  .pre-nav {
+    display: none;
+  }
 
   nav {
     flex-direction: column;
-    align-items: flex-start;
-    padding: 10px 15px;
-    height: auto;
+    align-items: start;
+    padding: 40px 15px;
+    height: 100px;
+    top: 0;
   }
 
   .logo h2 {
@@ -581,16 +603,17 @@ hr {
   .links {
     flex-direction: column;
     width: 100%;
-    display: none; 
+    display: none;
     gap: 0;
     margin-top: 10px;
   }
 
-  .links a, .dropdown-container {
+  .links a{
     width: 100%;
     padding: 10px 0;
     border-bottom: 1px solid #ddd;
   }
+  
 
   .dropdown-menu {
     position: static;
@@ -599,7 +622,7 @@ hr {
     pointer-events: auto;
     box-shadow: none;
     border: none;
-    display: none; 
+    display: none;
     flex-direction: column;
     background-color: #f8f8f8;
   }
@@ -624,6 +647,7 @@ hr {
   .scroll1 {
     padding: 70px 15px;
     text-align: center;
+    height: auto;
   }
 
   .scroll1 h1 {
@@ -654,7 +678,9 @@ hr {
     padding-inline: 15px;
   }
 
-  .meet-left, .first, .second {
+  .meet-left,
+  .first,
+  .second {
     width: 100%;
   }
 
@@ -708,7 +734,67 @@ hr {
     padding-inline: 0;
   }
 
-  .meeting img{
+  .meeting img {
     width: 350px;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    right: 30px;
+  }
+
+  nav {
+    justify-content: space-between;
+    padding-inline: 20px;
+  }
+
+  .links {
+    position: fixed;
+    top: 80px;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    transition: 0.4s ease;
+    z-index: 998;
+  }
+
+  nav {
+    padding-inline: 20px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  #menu-toggle:checked ~ .links {
+    right: 0;
+  }
+
+  #menu-toggle:checked + .menu-icon .fa-bars {
+    display: none;
+  }
+  #menu-toggle:checked + .menu-icon .fa-xmark {
+    display: block;
+  }
+
+  nav .links a,
+  nav .dropdown-container {
+    font-size: 18px;
+  }
+
+  .before-footer{
+    padding-inline: 30px
+  }
+
+  .top-footer , .footer-icons{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 }
