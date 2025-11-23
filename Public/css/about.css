@@ -131,3 +131,7 @@
 .reviewer > div > div > svg{
     color: #ffc107;
 }
+
+.testimonial > div > p > span > svg{
+    color: #e96b56;
+}

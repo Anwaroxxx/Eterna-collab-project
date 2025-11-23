@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.breadcrumbs {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    background-color: #ebebeb;
+    align-items: center;
+    padding: 2vh 50vw 2vh 0;
+}
+
+.root {
+    display: flex;
+    gap: 0.5vw;
+}
+
+.root a {
+    color: #e96b56;
+    text-decoration: none;
+}
