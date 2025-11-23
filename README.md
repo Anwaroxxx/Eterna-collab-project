@@ -32,7 +32,7 @@ A modern, clean, and responsive multi-page website built collaboratively by **An
 
 - ✔️ Team Page *(Bonus)* (Desktop)
 
-- 🔄 Currently working on **Mobile Responsive** (10%)
+- 🔄 Currently working on **Mobile Responsive** (In progress)
 
 
 
@@ -62,13 +62,18 @@ A modern, clean, and responsive multi-page website built collaboratively by **An
 
 ## 📊 Progress Overview
 
-Desktop Pages:     ████████████████████ 100%
+**Desktop Pages**  
+<progress value="70" max="100"></progress> 70%
 
-Mobile Responsive: ██░░░░░░░░░░░░░░░░ 10%
+**Mobile Responsive**  
+<progress value="33" max="100"></progress> 33%
 
-Amine’s Pages:     ████░░░░░░░░░░░░░░ 20%
+**Amine’s Pages**  
+<progress value="50" max="100"></progress> 50%
 
-Overall Progress:  ███████░░░░░░░░░░░ 40%
+**Overall Progress**  
+<progress value="64" max="100"></progress> 64%
+
 
 
 
