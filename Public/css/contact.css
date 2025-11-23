@@ -41,6 +41,10 @@ html {
   align-items: center;
 }
 
+input , .menu-icon{
+  display: none;
+}
+
 .email p,
 .phone p {
   color: #fff;
