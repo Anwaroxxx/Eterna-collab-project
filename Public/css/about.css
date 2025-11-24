@@ -162,7 +162,7 @@ nav {
   gap: 1vh;
   background-color: #ebebeb;
   align-items: center;
-  padding: 2vh 50vw 2vh 0;
+  padding: 12vh 50vw 2vh 0;
 }
 
 .root {
@@ -180,7 +180,7 @@ nav {
   align-items: center;
   justify-content: center;
   padding-inline: 20vw;
-  margin-top: 5vh;
+  margin-top: 10vh;
 }
 
 .text {
@@ -651,6 +651,10 @@ hr {
     gap: 25px;
     padding: 0 20px 60px 20px;
     align-items: center;
+  }
+
+  .Testimonials-section > p{
+    text-align: center;
   }
 
   .testimonial {

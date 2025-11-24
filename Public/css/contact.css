@@ -17,6 +17,14 @@ html {
   scroll-behavior: smooth;
 }
 
+nav > input{
+  display: none;
+}
+
+nav > label{
+  display: none;
+}
+
 .pre-nav {
   display: flex;
   justify-content: space-between;

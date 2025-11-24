@@ -1,3 +1,4 @@
+/* GLOBAL RESET & TYPOGRAPHY */
 * {
   padding: 0;
   margin: 0;
@@ -16,6 +17,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/* HEADER & PRE-NAV */
 .pre-nav {
   display: flex;
   align-items: center;
@@ -60,6 +62,7 @@ html {
   color: rgb(176, 176, 176);
 }
 
+/* NAVIGATION */
 nav {
   display: flex;
   justify-content: space-around;
@@ -99,6 +102,7 @@ nav {
   color: rgb(232, 108, 86) !important;
 }
 
+/* DROPDOWN MENU */
 #dropdown {
   display: flex;
   gap: 5px;
@@ -156,13 +160,14 @@ nav {
   transform: translateY(0);
 }
 
+/* BREADCRUMBS */
 .breadcrumbs {
   display: flex;
   flex-direction: column;
   gap: 1vh;
   background-color: #ebebeb;
   align-items: center;
-  padding: 2vh 50vw 2vh 0;
+  padding: 13vh 50vw 2vh 0;
 }
 
 .root {
@@ -175,6 +180,7 @@ nav {
   text-decoration: none;
 }
 
+/* NEWSLETTER / BEFORE FOOTER */
 .before-footer {
   background-color: rgb(69, 69, 69);
   display: flex;
@@ -234,6 +240,7 @@ nav {
   color: white;
 }
 
+/* FOOTER */
 footer {
   background: #3d3d3d;
   color: #fff;
@@ -340,6 +347,7 @@ hr {
   row-gap: 20px;
 }
 
+/* SCROLL TOP BUTTON */
 .scroll-top-btn {
   position: fixed;
   bottom: 30px;
@@ -371,6 +379,7 @@ hr {
   transform: translateY(-2px);
 }
 
+/* MOBILE MENU TOGGLES */
 .menu-icon {
   display: none;
   cursor: pointer;
@@ -389,83 +398,131 @@ hr {
   display: none;
 }
 
-
-/* KML DAKSHY DIALK HNA*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:426px){
-
-    .pre-nav {
+/* SERVICES SECTION */
+.services-section {
+  display: flex;
+  justify-content: center;
+  margin: 10vh 0 5vh 0;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  place-items: center;
+  width: 70vw;
+  gap: 3vh;
+  padding: 0 0 10vh 0;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px rgb(212, 212, 212);
+  gap: 2vh;
+  padding: 10vh 2vh 10vh 2vh;
+  height: 100%;
+  width: 100%;
+}
+
+.service>svg {
+  height: 4vh;
+  width: 4vh;
+  color: white;
+  background-color: #e96b56;
+  padding: 2vh;
+  border-radius: 10px;
+  box-shadow: -10px -10px 1px #ffc9bf;
+  box-sizing: content-box; 
+}
+
+.service>p {
+  text-align: center;
+}
+
+.service:hover {
+  background-color: #e96b56;
+  color: white;
+  transition: 0.3s;
+}
+
+.service:hover svg {
+  background-color: white;
+  color: #e96b56;
+  transition: 0.3s;
+}
+
+/* SKILLS SECTION */
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vh;
+  width: 70vw;
+}
+
+.hr-line {
+  border-bottom: #e96b56 solid 3px;
+  width: 3vw;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3vh;
+  width: 100%; 
+}
+
+.skills img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 10vh 0;
+}
+
+.skills-right {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  justify-content: center;
+}
+
+.percentage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+progress {
+  width: 100%;
+  appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #eee;
+}
+
+progress::-webkit-progress-value {
+  background-color: #e96b56;
+}
+
+@media (max-width: 426px) {
+
+  .pre-nav {
     display: none;
   }
+
   .breadcrumbs {
     display: none;
   }
@@ -527,7 +584,8 @@ hr {
     opacity: 1;
     padding: 10px 0;
   }
-.before-footer {
+
+  .before-footer {
     padding: 30px 20px;
   }
 
@@ -557,5 +615,43 @@ hr {
 
   .footer-icons {
     justify-content: center;
+  }
+
+  .skills {
+    grid-template-columns: 1fr;
+  }
+  
+  .skills-section {
+    width: 90vw;
+  }
+  
+  .skills img {
+    max-height: 400px;
+  }
+
+  .services {
+    grid-template-columns: 1fr;
+    width: 90vw;
+    padding-top: 5vh;
+  }
+
+.hr-line {
+  border-bottom: #e96b56 solid 3px;
+  width: 20vw;
+}
+
+  .service {
+    padding: 5vh 2vh ; 
+  }
+  
+
+  .down input {
+    width: 100%;
+  }
+  
+  .down button {
+    position: static;
+    width: 100%;
+    margin-top: 10px;
   }
 }
